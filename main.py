@@ -6,6 +6,6 @@ app = FastAPI()
 def root():
     return{"message":"Hello FastAPI"}
 
-@app.get("/cars")
+@app.get("/posts")
 def get_cars():
-    return {"Cars":"Cars listed by brand"}
+    return {"data":"This is your post"}
